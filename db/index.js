@@ -6,7 +6,7 @@ exports.connect = function() {
 
 exports.getPhrase = function(name){
     if(!phrases[name]){
-        throw  new Error("Нет такой фразы" + name)
+        throw  new Error("РќРµС‚ С‚Р°РєРѕР№ С„СЂР°Р·С‹" + name)
     }
     return phrases[name];
 };
